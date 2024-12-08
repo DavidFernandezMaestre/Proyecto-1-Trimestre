@@ -62,3 +62,42 @@ footer{
     margin-top: 44%;
     font-weight: bold;
 }
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #F28911;
+    color: white;
+    font-size: 20px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo de los arcos */
+h2 {
+    text-align: center;
+    font-family: "naruto_font", sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+main {
+    flex: 1; /* Esto asegura que el main ocupe el espacio disponible */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    padding-bottom: 80px; /* Esto asegura que haya espacio para el footer sin superponerse */
+}

@@ -162,7 +162,8 @@ textarea{
     font-size: 30px;
     margin-left: 30px;
 }
-
-.contacto{
-    background-color: #b9ccec;
-}
+@media (max-width: 768px) {
+    header .titulo {
+        flex-direction: column;
+        text-align: center;
+    }

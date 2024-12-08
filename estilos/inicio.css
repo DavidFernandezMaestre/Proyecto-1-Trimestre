@@ -62,3 +62,16 @@ footer{
     margin-top: 44%;
     font-weight: bold;
 }
+h2{
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: "naruto_font";
+}
+h3{
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: "naruto_font";
+}
+p{
+    font-size: 23px;
+}
